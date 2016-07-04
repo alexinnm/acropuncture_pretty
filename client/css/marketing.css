@@ -133,9 +133,11 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    /*background: #1f8dd6;*/
     z-index: 1;
     overflow: hidden;
+    background-image: url("img/bayBridge.jpg") ;
+
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
     height: 88%;
@@ -146,13 +148,15 @@ a.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    width: 80%;
+    width: 90%;
     height: 50%;
     margin: auto;
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
     text-transform: uppercase;
+    background-image: url("img/bayBridge.jpg") ;
+
 }
 
 /* This is the main heading that appears on the blue section */
@@ -161,7 +165,7 @@ a.pure-button-primary {
     font-weight: bold;
     color: white;
     border: 3px solid white;
-    padding: 1em 1.6em;
+    padding: .8em 1.6em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
@@ -307,4 +311,16 @@ section.container {
     width:50;
     overflow:hidden;
     border-radius:50%;
+}
+
+.banner {
+    background: transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
+
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
 }
